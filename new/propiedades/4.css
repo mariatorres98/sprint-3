@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* parte superior azul */
+header{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 17vh;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    background-color: rgb(37, 37, 242);
+    width: 100%;
+    height: 6vh;
+    justify-content: space-between;
+}
+.info-izquierda{
+    display: flex;
+    width: 70vw;
+    gap: 3vw;
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    padding-left: 4vw;
+}
+.derecha{
+    display: flex;
+    width: 30vw;
+    color: white;
+    font-size: 15px;
+    align-items: center;
+    justify-content: end;
+    padding-right: 3.3vw;
+    
+}
+.login-register{
+    cursor: pointer;
+}
+.login-register:hover{
+    border-bottom: 1px solid rgb(145, 138, 138);
+}
+/* parte superior blanca */
+.nav1{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 11vh;
+    justify-content: space-between;
+}
+
+.izquierda2{
+    display: flex; 
+    width: 65vw;
+    gap:3vw;
+    color: rgb(80, 73, 73);
+    font-size: 16px;
+    align-items: center;
+    padding-left: 2vw;
+}
+.derecha2{
+    display: flex;
+    width: 35vw;
+    gap:3vw;
+    color:rgb(80, 73, 73);
+    font-size: 16px;
+    align-items: center;
+    padding-left: 11vw;
+   
+}
+.logo1{
+    display: flex;
+    height: 6vh;
+    border-right: 1px solid rgb(169, 158, 158);
+    padding-right: 40px;
+}
+
+.homepage{
+    cursor: pointer;
+}
+.homepage:hover{
+    border-bottom: 1px solid rgb(145, 138, 138);
+}
+
+.properties{
+    cursor: pointer;
+}
+.properties:hover{
+    border-bottom: 1px solid rgb(145, 138, 138);
+}
+
+.agencies{
+    cursor: pointer;
+}
+.agencies:hover{
+    border-bottom: 1px solid rgb(145, 138, 138);
+}
+
+.pages{
+    cursor: pointer;
+}
+.pages:hover{
+    border-bottom: 1px solid rgb(145, 138, 138);
+}
+
+.about{
+    cursor: pointer;
+}
+.about:hover{
+    border-bottom: 1px solid rgb(145, 138, 138);
+}
+
+.contact{
+    cursor: pointer;
+}
+.contact:hover{
+    border-bottom: 1px solid rgb(145, 138, 138);
+}
+
+.compare{
+    cursor: pointer;
+}
+.compare:hover{
+    border-bottom: 1px solid rgb(145, 138, 138);
+}
+
+.submit{
+    cursor: pointer;
+}
+.submit:hover{
+    border-bottom: 1px solid rgb(145, 138, 138);
+}
+
+.favorito{
+    display: flex;
+    height: 3vh;
+    cursor: pointer;
+}
+.favorito:hover{
+    background-color: rgb(201, 156, 156);
+    border-radius: 20px;
+}
+/* parte supeior principal main */
+.main{
+    display: flex;
+    background-image: url("./fondo.jpg.jpeg");
+    width: 100%;
+    height: 480px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main1{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+.main-superior{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+.letra-superior{
+    display: flex;
+    color: white;
+    font-size: 40px;
+}
+.letra-inferior{
+    display: flex;
+    color: white;
+    font-size: 18px;
+}
+/* parte mide navar */
+.main-inferior{
+    display: flex;
+}
+
+.navar{
+    display: flex;
+    background-color: white;
+    width: 60vw;
+    height: 13vh;
+    border-radius: 5px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-type{
+    display: flex;
+    width: 11vw;
+    height: 6vh;
+    background-color: rgb(219, 219, 219);
+    border-radius: 3px;
+    border:none;
+}
+.select-type:hover{
+    cursor: pointer;
+}
+
+.select-status{
+    display: flex;
+    width: 9vw;
+    height: 6vh;
+    background-color: rgb(219, 219, 219);
+    border-radius: 3px;
+    border:none;
+}
+.select-status:hover{
+    cursor: pointer;
+}
+
+#search{
+    display: flex;
+    width: 18vw;
+    height: 6vh;
+    background-color: rgb(219, 219, 219);
+    border-radius: 3px;
+    border:none;
+
+}
+.favs{
+    display: flex;
+    width: 3.1vw;
+    height: 6vh;
+    background-color: rgb(219, 219, 219);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.favs:hover{
+    background-color: rgb(223, 167, 167);
+    border-radius: 20px;
+}
+.favori{
+    display: flex;
+    height: 3vh;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.fav{
+    cursor: pointer;
+    height: 20px;
+    margin-top: -290px;
+    margin-left: 100px; 
+}
+.fav:hover{
+    background-color: rgb(229, 146, 146);
+    border-radius: 20px;
+}
+
+#boton-busqueda{
+    display: flex;
+    width: 10vw;
+    height: 6vh;
+    background-color: rgb(37, 37, 242);
+    border-radius: 3px;
+    border:none;
+    color: white;  
+    cursor: pointer;
+}
+#boton-busqueda:hover{
+    background-color:rgb(219, 219, 219);
+    color: rgb(37, 37, 242);
+}
+.find{ 
+    margin-left: 19px;
+    margin-top: 11px;
+    font-size: 15px;
+}
+/* parte mide inferior */
+.middle{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+.middle-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    gap: 10px;
+}
+.letra1{
+    font-size: 10px;
+    color: gray;
+}
+.letra2{
+    font-size: 50px;
+    
+}
+
+
+
+#container__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: white;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 590px;
+    border-radius: 10px;
+    background-color: rgb(246, 244, 244);
+    margin: 10px;
+    cursor: pointer;
+}
+.card__img{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.cardtop1{
+  display: flex;
+  padding: 10px;
+  margin-left: 67px;
+  font-size: 15px;
+  gap: 69px;
+}
+.house{
+    padding: 10px;
+    background-color: #2A42E8;
+    border-radius: 10px;
+    color: white;
+    margin-top: -290px;
+    margin-left: -50px;
+    height: 36px;
+}
+.rent{
+    padding: 10px;
+    background-color: #FF5E15;  
+    border-radius: 10px;
+    color: white;
+    margin-top: -290px;
+    margin-left: -50px;
+    height: 36px;
+}
+.price{
+    display: flex;
+    padding: 10px;
+    color: #2A42E8;
+    border-radius: 10px;
+    margin-left:20px;
+    margin-top: -100px;
+    background-color: white;
+    width: 100px;
+}
+.lugar{
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(193, 182, 182);
+    margin-left:20px;
+    margin-top:10px ;
+    
+}
+.directopn1{
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    margin-left:20px;
+    margin-top:10px ;
+}
+.cardmiddle{
+    display: flex;
+    padding: 10px; 
+    gap: 40px;
+    font-size: 15px;
+    margin-top: 40px;
+}
+.contactt{
+    padding: 10px;
+    color: white;
+    background-color: #2A42E8;
+    border-radius: 10px;
+    margin-left: 12px;
+}
+.parquing{
+    padding: 10px;
+    color: white;
+    background-color: #FF5E15;
+    border-radius: 10px;
+}
+.cardbottom{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px; 
+}
+.area{
+    padding: 5px;
+    font-size: 20px;
+}
+.rooms{
+    color: red;
+    font-size: 25px;
+}
+.descrip{
+    padding: 10px;
+    margin-left: 20px;
+}
+@media screen and (min-width:375px) and (max-width:667px){
+    .nav{
+        display: none;
+    }
+    .nav1{
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+    .logo1{
+        padding-right: 10px;
+    }
+    
+.derecha2{
+    display: none;
+}
+
+.properties{
+    display: none;
+}
+.agencies{
+    display: none;
+}
+.pages{
+    display: none;
+}
+.about{
+    display: none;
+}
+.contact{
+    display: none;
+}
+.compare{
+    display: none;
+}
+.submit{
+    display: none;
+}
+.opciones{
+    margin-left: 40px;
+}
+.select-type{
+    display: none;
+}
+.select-status{
+    display: none;
+}
+.favs{
+    width: 45px;
+    margin-top: 100px;
+}
+.find{
+display: none;
+}
+}
